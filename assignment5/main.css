@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(217, 254, 255);
+}
+hr{
+    border-top: 3px dashed rgb(20, 188, 255);
+    margin: 20px 0 20px;
+}
+button{
+    margin : 0 18px 0;
+}
+
+#page-topic{
+    text-align: center;
+}
+
+.button-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%;
+}
+
+.posted-text{
+    padding: 10px 0 10px;
+}
