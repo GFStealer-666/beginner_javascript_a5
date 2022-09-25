@@ -1,24 +1,48 @@
 body{
-    background-color: rgb(217, 254, 255);
+    background-color: rgb(192, 253, 255);
 }
 hr{
-    border-top: 3px dashed rgb(20, 188, 255);
+    border: 4px dashed rgb(217, 254, 255);
+    border-bottom: none;
     margin: 20px 0 20px;
 }
 button{
     margin : 0 18px 0;
 }
 
-#page-topic{
-    text-align: center;
+button:hover{
+    opacity: 60%;
 }
 
-.button-section{
-    margin-left: auto;
-    margin-right: auto;
-    width: 14%;
+#text_area{
+
+    background-color: rgb(217, 254, 255);
+    height: 100px;
+    padding: 0px auto 0px auto;
+    width: 200px;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+}
+
+#page-topic{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
 }
 
 .posted-text{
+    font-family: 'Neucha', cursive;
     padding: 10px 0 10px;
+    font-size: 30px;
+}
+
+.button-section{
+    text-align: center;
+}
+
+.button-text{
+    background-color: rgb(217, 254, 255);
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
 }

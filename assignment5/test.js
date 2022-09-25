@@ -2,14 +2,13 @@ var postCounter = 0;
 var globaltextString;
 
 function postFunction(){
-    globaltextString = document.getElementById("text1").value; 
+    globaltextString = document.getElementById("text_area").value; 
     // alert(globaltextString);
     postCounter +=1;
     // alert(postCounter);
     // // alert(textString);
     if(postCounter == 1){
        firstPostFunction(); 
-       
     }
     else if(postCounter == 2){
         SecondPostFunction();
@@ -39,7 +38,7 @@ function ThridPostFunction(){
 }
 
 function ClearTextBox(){
-    text1.value = "";
+    text_area.value = " ";
 }
 
 function clearFunction(){
