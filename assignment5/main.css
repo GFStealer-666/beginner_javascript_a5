@@ -4,7 +4,7 @@ body{
 hr{
     border: 4px dashed rgb(217, 254, 255);
     border-bottom: none;
-    margin: 20px 0 20px;
+    margin: 20px 20px 20px;
 }
 button{
     margin : 0 18px 0;
@@ -15,11 +15,11 @@ button:hover{
 }
 
 #text_area{
-
+    border-color: rgb(217, 254, 255);
     background-color: rgb(217, 254, 255);
-    height: 100px;
+    height: 150px;
     padding: 0px auto 0px auto;
-    width: 200px;
+    width: 300px;
     font-family: 'Neucha', cursive;
     font-size: 20px;
 }
@@ -27,10 +27,14 @@ button:hover{
 #page-topic{
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+    margin: 40px auto 40px auto;
     font-size: 50px;
+    width : 50%;
+    background-color: rgb(217, 254, 255);
 }
 
 .posted-text{
+    text-align: center;
     font-family: 'Neucha', cursive;
     padding: 10px 0 10px;
     font-size: 30px;
@@ -42,7 +46,7 @@ button:hover{
 
 .button-text{
     background-color: rgb(217, 254, 255);
-    border-color: black;
+    border-color: rgb(217, 254, 255);
     font-size: 20px;
     font-family: 'Neucha', cursive;
 }
